@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="test.com.myapp.MainActivity">
+
+    <TextView
+        android:id="@+id/emergency_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="15dp"
+        android:background="#cfc6c6"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="Emergency Contacts"
+        android:textColor="#f00"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/emergency_contacts"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/info"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#377304"
+            android:text="Info"
+            android:textColor="#3d3d3d"
+            android:textSize="13sp"/>
+
+        <Button
+            android:id="@+id/schedule"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#377304"
+            android:text="Schedule"
+            android:textColor="#3d3d3d"
+            android:textSize="13sp"/>
+
+        <Button
+            android:id="@+id/locations"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#377304"
+            android:text="Locations"
+            android:textColor="#3d3d3d"
+            android:textSize="13sp"/>
+
+        <Button
+            android:id="@+id/feedback"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#377304"
+            android:text="Feedback"
+            android:textColor="#3d3d3d"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+</RelativeLayout>
