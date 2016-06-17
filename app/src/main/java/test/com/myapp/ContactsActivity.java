@@ -34,7 +34,7 @@ public class ContactsActivity extends AppCompatActivity {
             }
         });
 
-        String url = "https://docs.google.com/document/d/1bCpxeMf_nYqe3zj9qqFUX7kWt3-cckJQsgv9iDF1tkQ/pub";
+        String url = "https://docs.google.com/document/d/1efPo7cA4XV3AqeDRu6_Wp3vdskOQ8SYKmYEQ4S5mCW0/pub";
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.loadUrl(url);
         mWebView.setWebViewClient(new WebViewClient() {

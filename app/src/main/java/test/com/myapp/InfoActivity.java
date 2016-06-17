@@ -31,7 +31,7 @@ public class InfoActivity extends AppCompatActivity {
             }
         });
 
-        String url = "https://drive.google.com/file/d/0B2ahGwJEz7gAYTE1NVNsb0hiVW8/view?usp=sharing";
+        String url = "https://drive.google.com/open?id=0B1m0ykpmY4rjaTVwYWhtaTZzR0k";
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.loadUrl(url);
         //mWebView.loadUrl("http://drive.google.com/viewerng/viewer?embedded=true&url=" + url);

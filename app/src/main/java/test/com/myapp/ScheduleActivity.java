@@ -33,7 +33,7 @@ public class ScheduleActivity extends AppCompatActivity {
             }
         });
 
-        String url = "https://docs.google.com/spreadsheets/d/17-D_A5cOpqxYtaaTOxhlclF58GAeRGyZNS0izQ8MIlo/pub";
+        String url = "https://docs.google.com/spreadsheets/d/1KZ_HCw9hqwHVMX9oYz56X9JdGMaGv3WK8kfoUJskiM8/pub";
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.loadUrl(url);
         mWebView.setWebViewClient(new WebViewClient() {

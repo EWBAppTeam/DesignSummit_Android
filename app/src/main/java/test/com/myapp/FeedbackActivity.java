@@ -33,7 +33,7 @@ public class FeedbackActivity extends AppCompatActivity {
             }
         });
 
-        String url = "https://docs.google.com/forms/d/1s7EmxD16wymf-F3cDkRTWZBdAL2rvD7eaVrl2Oj0XFs/viewform";
+        String url = "https://docs.google.com/forms/d/1vif6hhJ6kdmEAms9XljB_LqFb3za4ksQkjUY51zprEc/viewform";
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.loadUrl(url);
         mWebView.setWebViewClient(new WebViewClient() {
