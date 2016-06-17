@@ -14,12 +14,12 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginTop="15dp"
-        android:background="#cfc6c6"
+        android:background="#efeff4"
         android:gravity="center"
         android:paddingBottom="20dp"
         android:paddingTop="20dp"
         android:text="Emergency Contacts"
-        android:textColor="#f00"
+        android:textColor="#ff0000"
         android:textSize="20sp"/>
 
     <ImageView
@@ -46,9 +46,9 @@
             android:layout_height="100dp"
             android:layout_margin="2dp"
             android:layout_weight="1"
-            android:background="#377304"
+            android:background="#39b54a"
             android:text="Info"
-            android:textColor="#3d3d3d"
+            android:textColor="#006447"
             android:textSize="13sp"/>
 
         <Button
@@ -57,9 +57,9 @@
             android:layout_height="100dp"
             android:layout_margin="2dp"
             android:layout_weight="1"
-            android:background="#377304"
+            android:background="#39b54a"
             android:text="Schedule"
-            android:textColor="#3d3d3d"
+            android:textColor="#006447"
             android:textSize="13sp"/>
 
         <Button
@@ -68,9 +68,9 @@
             android:layout_height="100dp"
             android:layout_margin="2dp"
             android:layout_weight="1"
-            android:background="#377304"
+            android:background="#39b54a"
             android:text="Locations"
-            android:textColor="#3d3d3d"
+            android:textColor="#006447"
             android:textSize="13sp"/>
 
         <Button
@@ -79,9 +79,9 @@
             android:layout_height="100dp"
             android:layout_margin="2dp"
             android:layout_weight="1"
-            android:background="#377304"
+            android:background="#39b54a"
             android:text="Feedback"
-            android:textColor="#3d3d3d"
+            android:textColor="#006447"
             android:textSize="13sp"/>
 
     </LinearLayout>
