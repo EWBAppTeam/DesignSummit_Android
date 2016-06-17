@@ -22,15 +22,7 @@
         android:textColor="#ff0000"
         android:textSize="20sp"/>
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_marginLeft="50dp"
-        android:id="@+id/imageView"
-        android:src="@drawable/BGImage"
-        android:layout_below="@id/emergency_contacts"
-        android:layout_above="@id/menu"
-        android:layout_centerHorizontal="true" />
+
 
 
     <LinearLayout
@@ -83,6 +75,16 @@
             android:text="Feedback"
             android:textColor="#006447"
             android:textSize="13sp"/>
-
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/bg_image"
+        android:layout_below="@id/emergency_contacts"
+        android:layout_above="@id/menu"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
