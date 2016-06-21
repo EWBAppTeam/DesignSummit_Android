@@ -33,6 +33,9 @@ public class ScheduleActivity extends AppCompatActivity {
             }
         });
 
+        // pdf: https://docs.google.com/spreadsheets/d/1KZ_HCw9hqwHVMX9oYz56X9JdGMaGv3WK8kfoUJskiM8/pub?gid=1397911395&single=true&output=pdf
+        // CSV: https://docs.google.com/spreadsheets/d/1KZ_HCw9hqwHVMX9oYz56X9JdGMaGv3WK8kfoUJskiM8/pub?gid=1397911395&single=true&output=csv
+        // Currently not rendering a PDF, but eventually either read pdf, or generate custom view from CVS.
         String url = "https://docs.google.com/spreadsheets/d/1KZ_HCw9hqwHVMX9oYz56X9JdGMaGv3WK8kfoUJskiM8/pub";
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.loadUrl(url);

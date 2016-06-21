@@ -53,10 +53,7 @@ public class LocationActivity extends AppCompatActivity implements OnMapReadyCal
         @Override
         protected List<String[]> doInBackground(Void... params) {
             try {
-                URL url = new URL("https://docs.google" +
-                        ".com/spreadsheets/d/15vp9jdLYI7RI7oes5LyF6FFfQ4NPC0VdKzwAfWyheJ0/pub?gid=0" +
-                        "&single=true&output=csv"
-                );
+                URL url = new URL("https://docs.google.com/spreadsheets/d/15vp9jdLYI7RI7oes5LyF6FFfQ4NPC0VdKzwAfWyheJ0/pub?gid=0&single=true&output=csv");
 
                 BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
                 List<String[]> data = new ArrayList<>();

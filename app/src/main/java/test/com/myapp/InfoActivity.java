@@ -24,14 +24,15 @@ public class InfoActivity extends AppCompatActivity {
         mWebView.getSettings().setBuiltInZoomControls(true);
         mWebView.setInitialScale(100);
 
-        mWebView.setWebChromeClient(new WebChromeClient(){
+        mWebView.setWebChromeClient(new WebChromeClient() {
             public void onProgressChanged(WebView view, int progress) {
-                if(progress == 100)
+                if (progress == 100)
                     mProgressBar.setVisibility(View.GONE);
             }
         });
 
-        String url = "https://drive.google.com/open?id=0B1m0ykpmY4rjaTVwYWhtaTZzR0k";
+
+        String url = "https://drive.google.com/open?id=0B2ahGwJEz7gAV0szX3lRYmpuTVE";
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.loadUrl(url);
         //mWebView.loadUrl("http://drive.google.com/viewerng/viewer?embedded=true&url=" + url);
